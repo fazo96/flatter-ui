@@ -4,6 +4,6 @@
       "homepage": "https://github.com/Rnhmjoj/flatter-ui",
       "author": "Michele Guerini Rocco <micheleguerinirocco@me.com>",
       "version": "0.1.0",
-      "git": "https://github.com/Rnhmjoj/flatter-ui.git",
+      "git": "ssh://git@github.com/rnhmjoj/flatter-ui",
       "packages": {}
 }

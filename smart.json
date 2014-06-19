@@ -1,0 +1,9 @@
+{
+      "name": "flatter-ui",
+      "description": "Less-only Flat UI that doesn't require javascript",
+      "homepage": "https://github.com/Rnhmjoj/flatter-ui",
+      "author": "Michele Guerini Rocco <micheleguerinirocco@me.com>",
+      "version": "0.1.0",
+      "git": "https://github.com/Rnhmjoj/flatter-ui.git",
+      "packages": {}
+}

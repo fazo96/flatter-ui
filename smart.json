@@ -3,7 +3,7 @@
       "description": "Less-only Flat UI that doesn't require javascript",
       "homepage": "https://github.com/Rnhmjoj/flatter-ui",
       "author": "Michele Guerini Rocco <micheleguerinirocco@me.com>",
-      "version": "0.1.8",
+      "version": "0.1.9",
       "git": "https://github.com/rnhmjoj/flatter-ui.git",
       "packages": {}
 }

@@ -104,6 +104,18 @@ nav {
 
 /* Checkbox
 ===============================*/
+.check, .circles {
+  &:after {
+    .transition;
+    font-family: FontAwesome;
+    content:"\f00d";
+  }
+  &:checked:after {
+    .transition;
+    content:"\f00c";
+  }
+}
+
 .check {
   .square(30px);
   .transition;
@@ -116,28 +128,15 @@ nav {
   &:after {
     .transition;
     position: absolute;
-    top: 4px;
-    left: 3px;
-    content:"";
-    background:url(@checkbox-icon);
-    width: 20px;
-    height: 20px;
-  }
-
-  &:checked {
-    .transition;
+    top: 7px;
+    left: 8px;
   }
 
   &:checked:after {
     .transition;
     position: absolute;
-    top: 4px;
-    left: 2px;
-    content:"";
-    background:url(@checkbox-icon);
-    background-position:-20px;
-    width: 22px;
-    height: 22px;
+    top: 7px;
+    left: 6px;
   }
 }
 
@@ -155,26 +154,19 @@ nav {
     .transition;
 
     &:after {
-      .square(22px);
       .transition;
       position: absolute;
-      left: 4px;
-      top: 4px;
-      content:"";
-      background:url(@checkbox-icon);
-      background-position:-23px;
+      left: 6px;
+      top: 6px;
     }
 
   }
 
   &:after {
-    .square(22px);
     .transition;
     position: absolute;
-    left: 3px;
-    top: 4px;
-    content:"";
-    background:url(@checkbox-icon);
+    left: 8px;
+    top: 6px;
   }
 }
 
@@ -235,11 +227,12 @@ nav {
 
   ul {
     .border-radius(4px);
+    margin-top: .4em;
     list-style: none;
     text-align: left;
     display: none;
     width: 300px;
-    background:#34495E;
+    background: @turquoise;
     padding: 0;
     overflow: hidden;
   }
@@ -252,7 +245,7 @@ nav {
     cursor: pointer;
 
     &:hover {
-      background:#3498DB;
+      background: @green-sea;
       cursor: pointer;
     }
   }
@@ -262,25 +255,26 @@ nav {
   .border-radius(4px);
   position: relative;
   width: 300px;
-  background:#3498DB;
+  background: @green-sea;
   padding: .6em;
   text-align: left;
   font-weight: 400;
   color:#fff;
   cursor: pointer;
 
-  span {
+  &:after {
+    .size(1.8em, 2em);
     .border-radius(4px);
+    background: @turquoise;
+    font-family: FontAwesome;
+    content:"\f0d7";
+    font-size: 1.4em;
+    padding-top: .3em;
+    padding-left:.6em;
     position: absolute;
     top: 0;
     right: 0;
-    padding: .6em;
-    background:#2980B9;
     cursor: pointer;
-
-    &:hover {
-      background:#2675a9;
-    }
   }
 }
 

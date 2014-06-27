@@ -12,7 +12,7 @@
   overflow-y: auto;
   text-align: left;
 
-  .tag {    
+  .tag {
     border-radius: @border-radius-base;
     background-color: @brand-secondary;
     color: @inverse;
@@ -33,7 +33,7 @@
       color: @inverse;
       padding-left: 12px;
       padding-right: 20px;
-      
+
       .tagsinput-remove-link {
         color: @inverse;
         opacity: 1;
@@ -74,11 +74,11 @@
   z-index: 2;
   // Opacity fallback for IE
   display: none\9;
-  
+
   &:before {
     color: @inverse;
-    content: "\e00b";
-    font-family: "Flat-UI-Icons";
+    content: "\f00d";
+    font-family: FontAwesome;
   }
 }
 
@@ -87,7 +87,7 @@
   display: inline-block;
 }
 
-.tagsinput-add {  
+.tagsinput-add {
   background-color: mix(@inverse, @brand-primary, 80%);
   border-radius: @border-radius-small;
   color: @inverse;
@@ -99,13 +99,13 @@
   padding: 7px 9px;
   vertical-align: top;
   .transition(.25s linear);
-  
+
   &:hover {
     background-color: @brand-secondary;
   }
   &:before {
-    content: "\e009";
-    font-family: "Flat-UI-Icons";
+    content: "\f067";
+    font-family: FontAwesome;
   }
 }
 

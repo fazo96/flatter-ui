@@ -1,9 +1,9 @@
 {
     "name": "flatter-ui",
-	"description": "Less-only Flat UI that doesn't require javascript",
-	"homepage": "https://github.com/Rnhmjoj/flatter-ui",
-	"author": "Michele Guerini Rocco <micheleguerinirocco@me.com>",
-	"version": "0.2.1",
+    "description": "Less-only Flat UI that doesn't require javascript",
+    "homepage": "https://github.com/Rnhmjoj/flatter-ui",
+    "author": "Michele Guerini Rocco <micheleguerinirocco@me.com>",
+    "version": "0.2.2",
     "git": "https://github.com/rnhmjoj/flatter-ui.git",
     "packages": {
         "font-awesome": "4.1.0"

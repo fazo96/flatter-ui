@@ -6,6 +6,6 @@
 	"version": "0.2.1",
     "git": "https://github.com/rnhmjoj/flatter-ui.git",
     "packages": {
-        "font-awesome": "4.1.10"
+        "font-awesome": "4.1.0"
     }
 }

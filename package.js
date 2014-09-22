@@ -1,5 +1,6 @@
 Package.describe({
-	summary: "Less-only Flat UI that doesn't require javascript"
+	summary: "Less-only Flat UI that doesn't require javascript",
+	version: '0.2.3'
 });
 
 Package.on_use(function (api){

@@ -1,6 +1,7 @@
 Package.describe({
 	summary: "Less-only Flat UI that doesn't require javascript",
 	name: 'mrt:flatter-ui',
+	git: 'https://github.com/Rnhmjoj/flatter-ui.git',
 	version: '0.2.3'
 });
 

@@ -5,8 +5,8 @@ Package.describe({
 });
 
 Package.on_use(function (api){
-	api.use('less');
-	api.use('jquery');
+	api.use('less@1.0.8');
+	api.use('jquery@1.0.0');
 	api.use('mrt:font-awesome-4-less@4.3.9')
 
 	var fonts_path = 'lib/fonts/lato/';

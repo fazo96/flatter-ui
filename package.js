@@ -1,6 +1,6 @@
 Package.describe({
 	summary: "Less-only Flat UI that doesn't require javascript",
-	name: 'mrt:flatter-ui'
+	name: 'mrt:flatter-ui',
 	version: '0.2.3'
 });
 

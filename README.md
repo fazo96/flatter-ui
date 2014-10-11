@@ -1,5 +1,6 @@
 # Flatter UI
-## A less-only Flat UI that doesn't require javascript
+
+Customized Flat-UI with extended flattyness for Meteor.
 
 Updated version of [rnhmjoj](http://github.com/rnhmjoj)'s Meteor plugin.
 

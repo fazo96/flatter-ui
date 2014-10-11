@@ -1,6 +1,8 @@
 # Flatter UI
 ## A less-only Flat UI that doesn't require javascript
 
+Updated version of [rnhmjoj](http://github.com/rnhmjoj)'s Meteor plugin.
+
 Based on designmodo's [Flat UI](http://designmodo.github.com/Flat-UI)
 and [UI Kit](http://codepen.io/giacomette)
 
